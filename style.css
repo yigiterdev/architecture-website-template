@@ -168,7 +168,7 @@ body {
   height: calc(var(--vh, 1vh) * 100);
   height: 100vh;
   min-height: 200px;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 .welcome-page h1 {
   position: absolute;
@@ -195,7 +195,7 @@ body {
   height: calc(var(--vh, 1vh) * 100);
   height: 100vh;
   min-height: 200px;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 .about-us-page .container h1 {
@@ -229,7 +229,7 @@ body {
   height: calc(var(--vh, 1vh) * 100);
   height: 100vh;
   min-height: 200px;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 .services-page .container h1 {
   display: flex;
@@ -260,7 +260,7 @@ body {
   background-position: center;
 
   min-height: 200px;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 .service-box .card:hover {
   background-color: #adff2f;
@@ -276,7 +276,7 @@ body {
   height: calc(var(--vh, 1vh) * 100);
   height: 100vh;
   min-height: 200px;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 .portfolio-page .container h1 {
   display: flex;
@@ -298,7 +298,7 @@ body {
   background-position: center;
 
   min-height: 200px;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 .portfolio h1 span {
   font-family: "Anton", sans-serif;
@@ -339,7 +339,7 @@ body {
   height: calc(var(--vh, 1vh) * 100);
   height: 100vh;
   min-height: 200px;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 .contact-us-page .container h1 {
   display: flex;
@@ -361,7 +361,7 @@ body {
   background-position: center;
 
   min-height: 200px;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 .contact h1 {
   font-family: "Anton", sans-serif;
@@ -426,18 +426,26 @@ body {
   .navbar .nav-item {
     margin: 10px;
   }
+  .welcome-page {
+    background-attachment: fixed;
+  }
   .welcome-page .btn {
     position: absolute;
     top: 70%;
     left: 50%;
   }
-
+  .about-us-page {
+    background-attachment: fixed;
+  }
   .about-us-page .container h1 {
     font-size: 60px;
     padding-right: 200px;
   }
   .menu-nav {
     width: 50%;
+  }
+  .services-page {
+    background-attachment: fixed;
   }
   .services-page .container h1 {
     font-size: 60px;
@@ -446,9 +454,15 @@ body {
   .menu .nav-link {
     font-size: 30px;
   }
+  .portfolio-page {
+    background-attachment: fixed;
+  }
   .portfolio-page .container h1 {
     font-size: 60px;
     padding-right: 200px;
+  }
+  .contact-us-page {
+    background-attachment: fixed;
   }
   .contact-us-page .container h1 {
     font-size: 60px;
